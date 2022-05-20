@@ -1,0 +1,2967 @@
+html{
+    cursor: url("img/foo165.cur"), pointer;
+}
+
+body{
+margin:0 auto;
+
+
+}
+
+@font-face {
+font-family: Anton;
+src: url(Anton-Regular.ttf);
+}
+
+
+
+
+
+
+
+/* cabecera */
+.cabecera{
+background-color:black;
+width: 100%;
+height: 200px;
+}
+
+.logo{
+margin-left:5%;
+margin-top:10px;
+position: absolute;
+background-image: url(img/fondo.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 140px;
+height: 180px;
+
+}
+
+
+nav{
+background-color:black;
+position:fixed;
+width: 100%;
+height: 200px;
+float: right;
+z-index: 100;
+}
+
+nav ul{
+float: right;
+}
+
+nav ul li{
+    margin-top: 70px;
+ position: relative;
+  display: inline-block;
+}
+
+nav ul li a{
+    font-family: anton;
+  margin-right: 30%;
+    color: white;
+  overflow: hidden;
+    text-decoration:none;
+    padding: 15px 70px;
+font-size: 30px;
+}
+li a.active, li a:hover{
+  border: white  3px  solid;
+    background: black;
+    transition: .5s;
+    color: white;
+    padding: 20px 80px;
+
+}
+.barra{
+  position: relative;
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    z-index: 20;
+}
+#check{
+    display: none;
+
+}
+section{
+}
+
+@media (max-width: 450px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    nav{
+margin-left: auto;
+float: right;
+background:black;
+height: 120px;
+width: 100%;
+
+
+    }
+}
+
+
+
+
+/* cabecera */
+
+
+
+
+/* section */
+section{
+  margin: 0 auto;
+}
+
+
+.cajauno{
+background-image: url(img/carbonara.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:fixed;
+width: auto;
+height:1200px;
+
+}
+
+.welco{
+margin-top: 15%;
+margin-bottom: auto;
+margin-left: 30%;
+margin-right: auto;
+position: absolute;
+background-image: url("img/welcom.png");
+background-size:contain;
+background-repeat: no-repeat;
+width: 1000px;
+height:200px;
+z-index: 80;
+}
+
+
+.cajados{
+background-color: white;
+width: auto;
+height:700px;
+
+}
+.capas {
+  margin-top: 2%;
+  margin-left:auto;
+  margin-right: 10%;
+  position: relative;
+  max-width: 500px;
+  z-index: 20;
+}
+.capas img {
+  position: absolute;
+  max-width: 100%;
+  transition: all ease 1250ms;
+}
+.capas:hover .capa0 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(0px);
+}
+
+
+#textocaja {
+margin-top: 5%;
+margin-left:10%;
+margin-right: 50%;
+  text-align: center  ;
+font-size: 40px;
+font-family: Anton;
+position: absolute;
+}
+
+/* slider */
+
+.slider{
+  position:relative;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 17s infinite alternate linear;
+    width:400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/* slider */
+
+
+
+.cajatres{
+margin-top: 2%;
+background-color: white;
+width: auto;
+height: 700px;
+}
+
+.fotuno{
+float: left;
+width: 15%;;
+height: 500px;
+
+}
+
+#un{
+margin-left: 5%;
+}
+#do{
+margin-left: 10%;
+}
+#tre{
+margin-left: 10%;
+}
+#cua{
+margin-left: 10%;
+
+}
+h1{
+  font-size:40px;
+  font-family:Anton;
+text-align: center;
+}
+h3{
+    font-size:20px;
+  text-align: center;
+  font-family:Anton;
+}
+
+
+
+/* video */
+
+.nada{
+position:absolute;
+width:100%;
+height:106%;
+z-index: 100;
+}
+
+
+.cajavideo{
+position: relative;
+background-color: white;
+width:auto;
+height: 100%;
+z-index: -10
+
+}
+
+/* video */
+
+
+
+/* section */
+
+
+
+
+
+/* dulce */
+
+.cajadulce{
+position: relative;
+width: auto;
+height: 2300px;
+background-color: white;
+}
+
+.dulcee{
+position: relative;
+float: left;
+width: 45%;
+height: 40%;
+margin-left:4%;
+margin-top:5%;
+}
+#fresa input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#fresa form{
+width: 100%;
+height: 100%;
+}
+
+#kitkat input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#kitkat form{
+width: 100%;
+height: 100%;
+}
+
+#oreo input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#oreo form{
+width: 100%;
+height: 100%;
+}
+
+#fruta input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#fruta form{
+width: 100%;
+height: 100%;
+}
+
+
+#fresa{
+background-image: url(img/pizzamg/fresa.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#kitkat{
+background-image: url(img/pizzamg/kitkat.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#oreo{
+background-image: url(img/pizzamg/oreo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#fruta{
+background-image: url(img/pizzamg/fruta.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+
+/* dulce */
+
+/* shop */
+
+
+.cajashop{
+position: relative;
+width: auto;
+height: 1200px;
+background-color: white;
+}
+.textooo{
+  position: relative;
+  background-color: silver;
+  width:auto;;
+  height: 150px;
+  color: black;
+  text-align: center;
+  font-family: Anton;
+  font-size: 80px;
+  }
+
+.shopp{
+position: relative;
+float: left;
+width: 50%;
+height: 90%;
+}
+.home{
+  position:relative;
+  float: left;
+  width: 50%;
+  height: 90%;
+  overflow: hidden;
+}
+.home ul{
+    display: flex;
+    animation: cambio 17s infinite alternate linear;
+    width:400%;
+}
+.home li{
+    width: 100%;
+    list-style: none;
+}
+.home img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.women{
+  position:relative;
+  float: left;
+  width: 50%;
+  height: 90%;
+  overflow: hidden;
+}
+.women ul{
+    display: flex;
+    animation: cambio 17s infinite alternate linear;
+    width:400%;
+}
+.women li{
+    width: 100%;
+    list-style: none;
+}
+.women img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+#hoome input{
+position: absolute;
+margin-top:70%;
+width:60%;
+background-color: white;
+cursor: pointer;
+}
+
+#woomen input{
+position: absolute;
+margin-top:70%;
+width:60%;
+background-color: white;
+cursor: pointer;
+}
+
+/* shop */
+
+
+/*contact */
+
+
+.cajacont{
+width: auto;
+height: 1000px;
+
+}
+
+
+.cajaco{
+  background-color: silver;
+width:85%;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.hoja{
+position: absolute;
+background-color: white;
+width: 25%;
+height: 4550;
+border: 10px black solid;
+margin-left: 55%;
+margin-top: 100px;
+
+}
+
+.hojados{
+  border: 10px black solid;
+  position: relative;
+width: 55%;
+height: 60%;
+background-color: white;
+margin-left: 5%;
+}
+
+.hojados li{
+text-decoration: none;
+margin-top: 60px;
+  font-family: anton;
+  font-size: 40px;
+  list-style: none;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.textoo{
+width: 85%;
+height: 200px;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+color: white;
+text-align: center;
+font-family: anton;
+font-size: 80px;
+}
+
+
+
+
+/* contact */
+
+
+
+/* pizza */
+
+.cajapizz{
+position: relative;
+width: auto;
+height: 2300px;
+background-color: white;
+}
+
+.pizzas{
+position: relative;
+float: left;
+width: 45%;
+height: 40%;
+margin-left:4%;
+margin-top:5%;
+}
+#barbacoa input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#barbacoa form{
+width: 100%;
+height: 100%;
+}
+
+#peperoni input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#peperoni form{
+width: 100%;
+height: 100%;
+}
+
+#carbonara input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#carbonara form{
+width: 100%;
+height: 100%;
+}
+
+#atun input{
+background-color: transparent;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+#atun form{
+width: 100%;
+height: 100%;
+}
+
+
+#barbacoa{
+background-image: url(img/pizzamg/barbacoa.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#peperoni{
+background-image: url(img/pizzamg/peperoni.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#carbonara{
+background-image: url(img/pizzamg/carbonara.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#atun{
+background-image: url(img/pizzamg/atun.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+/* pizza */
+
+
+/* recetas e ingredientes */
+
+
+
+/* recetas e ingredientes barbacoa  */
+
+.cajabarbacoaa{
+background-color: silver;
+margin: 0 auto;
+width: 80%;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotobarbacoa{
+background-image: url(img/barbacoa/tres.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.fotoingre{
+margin-top: 5%;
+float: left;
+background-image: url(img/barbacoa/ingredientes.jpg);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+}
+
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+text-align: center;
+background-color: white;
+text-align: center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+
+
+#fotob{
+margin-top: -100px;
+background-image: url(img/barbacoa/crudo.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotoc{
+    margin-top: -100px;
+background-image: url(img/barbacoa/tres.jpg);
+background-size: cover;
+}
+
+#textoc{
+    margin-top: -100px;
+background-color: white;
+text-align: center;
+font-family: Anton;
+font-size: 30px;
+}
+
+
+/* recetas e ingredientes barbacoa  */
+
+/* recetas e ingredientes carbonara  */
+
+.cajacarbonara{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotocarbonara{
+background-image: url(img/carbonara/carbonara.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.ingrecarbo{
+margin-top: 5%;
+float: left;
+background-image: url(img/carbonara/ingre.JPG);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobc{
+margin-top: -100px;
+background-image: url(img/atun/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocar{
+margin-top: -100px;
+background-image: url(img/carbonara/carbonara.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+/* recetas e ingredientes carbonara  */
+
+/* recetas e ingredientes peperoni  */
+.cajapeperoni{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+
+.fotopeperoni{
+background-image: url(img/peperoni/uno.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.fotoingrepe{
+margin-top: 5%;
+float: left;
+background-image: url(img/peperoni/ingre.JPG);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobp{
+    margin-top: -100px;
+background-image: url(img/peperoni/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocp{
+    margin-top: -100px;
+background-image: url(img/peperoni/uno.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+/* recetas e ingredientes peperoni  */
+
+/* recetas e ingredientes atun  */
+
+.cajaatun{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotoatun{
+background-image: url(img/atun/cuatro.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.atuningre{
+margin-top: 5%;
+float: left;
+background-image: url(img/atun/ingre.jpg);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+
+
+
+.termo{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingretermo{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingretermo li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 30px;
+}
+
+.ingretermo p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.termoingre{
+margin-top: 5%;
+float: left;
+background-image: url(img/atun/bola-de-masa-fermentada.jpg);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoat{
+background-image: url(img/atun/masa-paso_1.jpg);
+background-size: cover;
+}
+
+#textoat{
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 40px;
+text-align: left;
+
+}
+#fotobt{
+    margin-top: -100px;
+background-image: url(img/atun/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textobt{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 40px;
+
+}
+
+#fotoct{
+margin-top: -1px;
+background-image: url(img/atun/cuatro.jpg);
+background-size: cover;
+width: 100%;
+
+}
+
+
+
+/* recetas e ingredientes atun  */
+
+/* recetas e ingredientes fresa  */
+
+.cajafresa{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotofresa{
+background-image: url(img/fresa/fresa.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.ingrefre{
+margin-top: 5%;
+float: left;
+background-image: url(img/fresa/ingre.jpg);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+text-align:center;
+font-size: 30px;
+}
+#fotobfre{
+    margin-top: -100px;
+background-image: url(img/fresa/PASO.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocfre{
+    margin-top: -100px;
+background-image: url(img/fresa/fresas-web.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+/* recetas e ingredientes fresa  */
+
+/* recetas e ingredientes kitkat  */
+
+.cajakitkat{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotokitkat{
+background-image: url(img/kitkat/kitkat.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.igrekit{
+margin-top: 5%;
+float: left;
+background-image: url(img/kitkat/ingre.JPG);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobkit{
+    margin-top: -100px;
+background-image: url(img/kitkat/kit-kat-web.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotockit{
+  width: 100%;
+    margin-top: -100px;
+background-image: url(img/kitkat/kitkat.jpg);
+background-size: cover;
+}
+
+
+/* recetas e ingredientes kitkat  */
+
+/* recetas e ingredientes oreo  */
+
+.cajaoreo{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotooreo{
+background-image: url(img/oreo/oreo.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.ingreore{
+margin-top: 5%;
+float: left;
+background-image: url(img/oreo/ingre.JPG);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobore{
+    margin-top: -100px;
+background-image: url(img/oreo/oreo-paso-final-web.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocore{
+    margin-top: -100px;
+background-image: url(img/oreo/oreo-web.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+
+
+/* recetas e ingredientes oreo  */
+
+/* recetas e ingredientes fruta  */
+
+
+
+.cajafruta{
+background-color: silver;
+margin: 0 auto;
+width: 80%;;
+height: 5400px;
+}
+
+.cajatex{position: relative;
+margin-top: 100px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 80px;
+}
+
+
+.fotofrutaa{
+background-image: url(img/fruta/fruta.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 5%;
+float:left;
+background-color:white;
+width: 35%;
+height: 1000px;
+}
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.ingrefru{
+margin-top: 5%;
+float: left;
+background-image: url(img/fruta/ingre.jpg);
+background-size: cover;
+width: 55%;
+height: 1000px;
+}
+
+.preparacion{
+margin-left: 5%;
+margin-right: 5%;
+position: relative;
+width: auto;
+height: 2000px;
+
+}
+
+.prepa{
+padding-top: 10%;
+margin-top: 100px;
+float: left;
+width:50%;
+height:30%;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobfru{
+    margin-top: -100px;
+background-image: url(img/fruta/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:center;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocfru{
+    margin-top: -100px;
+background-image: url(img/fruta/fruta-web.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+
+/* recetas e ingredientes fruta  */
+
+
+
+/* recetas e ingredientes */
+
+/* registro */
+
+
+.formulario-container {
+text-align: center;
+position: relative;
+
+}
+
+.formulario-container form {
+    margin: 0 auto;
+    width: 300px;
+    border: 10px solid black;
+    padding: 80px;
+}
+
+.container {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.formulario-container form input:first-child {
+    margin-top: 0;
+}
+
+.formulario-container button {
+    border: none;
+    background: black;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    margin-left: 0;
+    box-shadow: 0 3px 6px 0 black;
+}
+
+
+.formulario-container input {
+  margin: 40px 0;
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px black;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, black 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, ) 96%, black 4%);
+  background-position: -200px 0;
+  background-size: 400px 100%;
+  background-repeat: no-repeat;
+  color:black;
+}
+
+ .formulario-container input:focus, .formulario-container input:valid {
+ box-shadow: none;
+ outline: none;
+ background-position: 0 0;
+}
+
+.formulario-container input::-webkit-input-placeholder {
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+}
+
+.formulario-container input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+ color:black;
+ font-size: 20px;
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ visibility: visible ;
+}
+
+
+h2{
+font-size: 60px;
+font-family: anton;
+}
+
+
+/* registro */
+
+
+/* footer */
+
+
+.footer{
+
+width: auto;
+height: 300px;
+background-color: black;
+}
+
+.pies{
+
+margin-top:80px;
+float: left;
+width: 25%;;
+height: 200px;
+}
+
+
+
+input{
+margin-left: 20%;
+width: 100px;
+height: 100px;
+}
+
+#piu a{
+  color: white;
+  text-decoration: none;
+font-family: anton;
+font-size: 50px;
+margin-left: 15%;
+}
+
+#piu {
+margin-left: 10%;
+}
+
+#pid{
+
+margin-left: 5%;
+}
+#pit{
+margin-left: 10%;
+}
+
+
+
+
+
+/* footer */
+/* mobil *//* mobil *//* mobil *//* mobil *//* mobil *//* mobil *//* mobil *//* mobil *//* mobil *//* mobil */
+
+
+@media screen and (max-width: 450px){
+    .barra{
+        display: block;
+    }
+
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        left: -115%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 10;
+
+    }
+
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color:white;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    .logo{
+margin-left: 40%;
+margin-right: auto;
+margin-top:20px;
+position: absolute;
+background-image: url(img/fondo.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 79px;
+height: 100px;
+
+    }
+
+.cajauno{
+
+background-image: url(img/carbonara.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment:fixed;
+width: 400px;
+height:500px;
+    }
+
+    .welco{
+margin-top: 45%;
+margin-bottom: auto;
+margin-left:50px;
+position: absolute;
+background-image: url("img/welcom.png");
+background-size:contain;
+background-repeat: no-repeat;
+width: 350px;
+height:400px;
+z-index: 80;
+}
+
+    .cajados{
+    background-color: silver;
+    width: auto;
+    height:530px;
+
+    }
+    .capas {
+      position: relative;
+      width: auto;
+      z-index: 20;
+    }
+.capas img {
+position: relative;
+width: auto;
+height: 200px;
+transition: all ease 1250ms;
+margin-left: 40%;
+}
+
+    #textocaja {
+      width: 250px;
+    margin-top: 5%;
+    margin-left:20%;
+    font-size: 21px;
+    font-family: Anton;
+    position: absolute;
+    text-align: center;
+    }
+
+.slider{
+visibility: hidden;
+height: 2px;
+}
+.cajatres{
+overflow:hidden;
+height: 1px;
+}
+
+.fotuno{
+overflow:hidden;
+}
+
+/* contact */
+
+.cajacont{
+width: auto;
+height: 1000px;
+
+}
+
+
+.cajaco{
+  margin-top: -100px;
+  background-color: silver;
+width:95%;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.hoja{
+position:relative;
+background-color: white;
+width: 95%;
+height: 40%;
+margin-left:1px;
+}
+
+iframe{
+width: 100%;
+height: 100%;
+}
+
+
+.hojados{
+  position: relative;
+width: auto;
+height: 45%;
+background-color: white;
+margin-left: 1px;
+}
+
+.hojados li{
+text-decoration: none;
+margin-top: 60px;
+  font-family: anton;
+  font-size: 30px;
+  list-style: none;
+}
+
+
+.textoo{
+width: 95%;
+height: 100px;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+color: white;
+text-align: center;
+font-family: anton;
+font-size: 50px;
+}
+
+
+/* contact */
+
+
+/* dulce */
+
+.cajadulce{
+position: relative;
+width: auto;
+height: 1600px;
+background-color: white;
+margin-left: 30px;
+}
+
+.dulcee{
+position: relative;
+float: left;
+width: 360px;
+height: 360px;
+margin-left:10px;
+
+
+}
+
+/* dulce */
+
+
+/* pizza */
+
+.cajapizz{
+position: relative;
+width: auto;
+height: 1600px;
+background-color: white;
+margin-left: 30px;
+}
+
+.pizzas{
+position: relative;
+float: left;
+width: 360px;
+height: 360px;
+margin-left:4%;
+margin-top:5%;
+}
+
+/* pizza */
+
+
+/* shop */
+
+
+
+.cajashop{
+position: relative;
+width: auto;
+height: 1200px;
+background-color: white;
+}
+.textooo{
+  position: relative;
+  background-color: silver;
+  width:auto;;
+  height: 150px;
+  color: black;
+  text-align: center;
+  font-family: Anton;
+  font-size: 80px;
+  }
+
+.shopp{
+position: relative;
+float: left;
+width: 50%;
+height: 90%;
+}
+.home{
+
+  background-color: blue;
+width: 450px;
+height: 450px;
+}
+.home ul{
+visibility: hidden;
+}
+.home li{
+visibility: hidden;
+}
+.home img{
+visibility: hidden;
+
+}
+.women{
+
+    background-color: blue;
+  width: 450px;
+  height: 450px;
+}
+.women ul{
+visibility: hidden;
+}
+.women li{
+visibility: hidden;
+}
+.women img{
+visibility: hidden;
+}
+
+
+#hoome input{
+  background-size: cover;
+background-image: url(img/shop/camiseta1.png);
+margin: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+
+#woomen input{
+  background-size: cover;
+background-image: url(img/shop/camisetam1.png);
+margin: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+/* shop */
+
+
+
+/* recetas e ingredientes barbacoa  */
+
+.cajabarbacoaa{
+background-color: silver;
+margin: 0 auto;
+width: 95%;
+height: 5900px;
+}
+
+.cajatex{
+position: relative;
+margin-top: 20px;
+background-color: black;
+width:auto;;
+height: 150px;
+color: white;
+text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.fotobarbacoa{
+background-image: url(img/barbacoa/tres.jpg);
+background-size: cover;
+width: 400px;
+height: 500px;;
+}
+
+
+.ingredientes{
+  position: relative;
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+margin-top: 5%;
+margin-left: 1px;
+float:left;
+background-color:white;
+width: 400px;
+height: 900px;
+}
+
+.fotoingre{
+margin-top: 5%;
+float: left;
+background-image: url(img/barbacoa/ingredientes.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 400px;
+height: 500px;
+}
+
+.preparacion{
+margin-left: 1px;
+position: relative;
+width: auto;
+height: 2000px;
+}
+
+.prepa{
+margin-top: 1px;
+float: left;
+width:400px;
+height:400px;
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+}
+#fotob{
+    margin-top: -100px;
+background-image: url(img/barbacoa/crudo.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top:10px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 25px;
+
+}
+
+#fotoc{
+  position: relative;
+    margin-top: -100px;
+background-image: url(img/barbacoa/tres.jpg);
+background-size: cover;
+}
+
+#textoc{
+    margin-top: -100px;
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+}
+
+
+/* recetas e ingredientes barbacoa  */
+
+/* recetas e ingredientes peperoni  */
+.cajapeperoni{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 5200px;
+  }
+
+
+.fotopeperoni{
+background-image: url(img/peperoni/uno.jpg);
+background-size: cover;
+width: 400px;
+height: 500px;
+}
+
+
+
+.ingredientes{
+  position: relative;
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+  margin-top: 5%;
+  margin-left: 1px;
+  float:left;
+  background-color:white;
+  width: 400px;
+  height: 600px;
+  }
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.fotoingrepe{
+float: left;
+background-image: url(img/peperoni/ingre.JPG);
+background-size: cover;
+margin-top: 5%;
+background-repeat: no-repeat;
+width: 400px;
+height: 500px;
+}
+
+.preparacion{
+  margin-left: 1px;
+  position: relative;
+  width: auto;
+  height: 2000px;
+  }
+
+.prepa{
+  margin-top: 1px;
+  float: left;
+  width:400px;
+  height:400px;
+
+
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobp{
+    margin-top: -100px;
+background-image: url(img/peperoni/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocp{
+background-image: url(img/peperoni/uno.jpg);
+position: relative;
+  margin-top: -100px;
+background-size: cover;
+width: 400px;
+}
+
+
+/* recetas e ingredientes peperoni  */
+/* recetas e ingredientes carbonara  */
+
+.cajacarbonara{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 5500px;
+  }
+
+
+
+.fotocarbonara{
+background-image: url(img/carbonara/carbonara.jpg);
+background-size: cover;
+width: 400px;
+height: 500px;
+}
+
+
+
+.ingredientes{
+  position: relative;
+
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingre{
+  margin-top: 5%;
+  margin-left: 1px;
+  float:left;
+  background-color:white;
+  width: 400px;
+  height: 800px;
+  }
+
+.ingre li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 40px;
+}
+
+.ingre p{
+  text-align: center;
+font-family: Anton;
+font-size: 50px;
+}
+
+
+.ingrecarbo{
+margin-top: 1px;
+float: left;
+background-image: url(img/carbonara/ingre.JPG);
+background-size: cover;
+width: 400px;
+height: 600px;
+}
+
+.preparacion{
+  margin-left: 1px;
+  position: relative;
+  width: auto;
+  height: 2000px;
+  }
+
+.prepa{
+  margin-top: 1px;
+  float: left;
+  width:400px;
+  height:400px;
+}
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 30px;
+}
+#fotobc{
+    margin-top: -100px;
+background-image: url(img/atun/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 30px;
+
+}
+
+#fotocar{
+margin-top: -100px;
+background-image: url(img/carbonara/carbonara.jpg);
+background-size: cover;
+position: relative;
+width: 400px;
+}
+
+
+
+/* recetas e ingredientes carbonara  */
+
+
+/* recetas e ingredientes atun  */
+
+.cajaatun{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 5550px;
+  }
+
+
+
+.fotoatun{
+background-image: url(img/atun/cuatro.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;
+}
+
+
+
+.atuningre{
+margin-top: 1px;
+float: left;
+background-image: url(img/atun/ingre.JPG);
+background-size: cover;
+width:400px;
+height: 500px;
+}
+
+
+
+
+
+.preparacion{
+  margin-left: 1px;
+  position: relative;
+  width: auto;
+  height: 2000px;
+  }
+
+
+
+#fotoat{
+background-image: url(img/atun/masa-paso_1.jpg);
+background-size: cover;
+}
+
+#textoat{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+text-align: left;
+
+}
+#fotobt{
+    margin-top: -100px;
+background-image: url(img/atun/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textobt{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 25px;
+
+}
+
+#fotoct{
+margin-top: -1px;
+background-image: url(img/atun/cuatro.jpg);
+background-size: cover;
+width: 100%;
+
+}
+
+
+
+/* recetas e ingredientes atun  */
+
+/* recetas e ingredientes fresa  */
+
+.cajafresa{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 5500px;
+  }
+
+
+.fotofresa{
+background-image: url(img/fresa/fresa.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingrefre{
+margin-top: 5%;
+float: left;
+background-image: url(img/fresa/ingre.jpg);
+background-size: cover;
+width: 400px;
+height: 500px;
+}
+
+.preparacion{
+  margin-left: 1px;
+  position: relative;
+  width: auto;
+  height: 2000px;
+  }
+
+
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+}
+#fotobfre{
+    margin-top: -100px;
+background-image: url(img/fresa/PASO.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 25px;
+
+}
+
+#fotocfre{
+    margin-top: -100px;
+background-image: url(img/fresa/fresas-web.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+/* recetas e ingredientes fresa  */
+
+/* recetas e ingredientes kitkat  */
+
+.cajakitkat{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 5500px;
+  }
+
+.fotokitkat{
+background-image: url(img/kitkat/kitkat.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+
+
+.igrekit{
+margin-top: 5%;
+float: left;
+background-image: url(img/kitkat/ingre.JPG);
+background-size: cover;
+width: 400px;
+height: 500px;
+}
+
+.preparacion{
+  margin-left: 1px;
+  position: relative;
+  width: auto;
+  height: 2000px;
+  }
+
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+}
+#fotobkit{
+    margin-top: -100px;
+background-image: url(img/kitkat/kit-kat-web.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 25px;
+
+}
+
+#fotockit{
+  width: 100%;
+    margin-top: -100px;
+background-image: url(img/kitkat/kitkat.jpg);
+background-size: cover;
+}
+
+
+/* recetas e ingredientes kitkat  */
+
+/* recetas e ingredientes oreo  */
+
+.cajaoreo{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 4000px;
+  }
+
+
+.fotooreo{
+background-image: url(img/oreo/oreo.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingreore{
+margin-top: 5%;
+float: left;
+background-image: url(img/oreo/ingre.JPG);
+background-size: cover;
+width: 400px;
+height: 500px;
+}
+
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+}
+#fotobore{
+    margin-top: -100px;
+background-image: url(img/oreo/oreo-paso-final-web.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 25px;
+
+}
+
+#fotocore{
+    margin-top: -100px;
+background-image: url(img/oreo/oreo-web.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+
+
+/* recetas e ingredientes oreo  */
+
+/* recetas e ingredientes fruta  */
+
+
+
+.cajafruta{
+  background-color: silver;
+  margin: 0 auto;
+  width: 95%;
+  height: 5500px;
+  }
+
+
+.fotofrutaa{
+background-image: url(img/fruta/fruta.jpg);
+background-size: cover;
+width: auto;;
+height: 600px;;
+}
+
+
+
+.ingredientes{
+  position: relative;
+  width: auto;
+  height: 1100px;
+}
+
+
+.ingrefru{
+margin-top: 5%;
+float: left;
+background-image: url(img/fruta/ingre.jpg);
+background-size: cover;
+width: 400px;
+height: 500px;
+}
+
+
+
+#fotoa{
+background-image: url(img/barbacoa/masa.jpg);
+background-size: cover;
+}
+
+#textoa{
+background-color: white;
+text-align: left;
+font-family: Anton;
+font-size: 25px;
+}
+#fotobfru{
+    margin-top: -100px;
+background-image: url(img/fruta/massa-pizza.jpg);
+background-size: cover;
+}
+
+#textob{
+margin-top: -100px;
+background-color: white;
+text-align:left;
+font-family: Anton;
+font-size: 25px;
+
+}
+
+#fotocfru{
+    margin-top: -100px;
+background-image: url(img/fruta/fruta-web.jpg);
+background-size: cover;
+width: 100%;
+}
+
+
+
+/* recetas e ingredientes fruta  */
+
+
+
+
+
+
+/* footer */
+
+
+
+.footer{
+width: auto;
+height: 450px;
+background-color:black;
+}
+
+.pies{
+
+float: left;
+width: 350px;
+height: 100px;
+}
+
+
+
+input{
+margin-left: 20%;
+width: 100px;
+height: 100px;
+}
+
+#piu a{
+color: white;
+margin-left: 100px;
+text-decoration: none;
+font-family: anton;
+font-size: 30px;
+
+}
+#piu {
+margin-top: -10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#pid{
+
+}
+#pid img{
+width: auto;
+height: 40px;
+}
+
+#pit{
+margin-top: -10px;
+}
+#pit a{
+  margin-left: 50px;
+margin-right: auto;
+}
+
+
+
+
+
+/* footer */
+
+
+
+.termo{
+  position: relative;
+  width: auto;
+  height: 800px;
+}
+
+
+.ingretermo{
+
+margin-left: 1px;
+float:left;
+background-color:white;
+width:400px;
+height: 800px;
+}
+.ingretermo li{
+margin-left: 10%;
+font-family: Anton;
+font-size: 30px;
+}
+
+.ingretermo p{
+  text-align: center;
+font-family: Anton;
+font-size: 40px;
+}
+
+
+.termoingre{
+float: left;
+background-image: url(img/atun/bola-de-masa-fermentada.jpg);
+background-size: cover;
+width:400px;
+height: 600px;
+}
+
+
+
+
+
+
+
+}
+
+/* mobil */
